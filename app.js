@@ -380,6 +380,7 @@ app.use(i18n.init);
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'views', 'themes')));
 app.use(express.static(path.join(__dirname, 'node_modules', 'feather-icons')));
+app.use(compression());
 
 // Make stuff accessible to our router
 app.use((req, res, next) => {
