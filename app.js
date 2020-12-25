@@ -345,6 +345,7 @@ if(!config.secretSession || config.secretSession === ''){
     updateConfigLocal({ secretSession: randomString });
 }
 
+
 app.enable('trust proxy');
 app.use(helmet());
 app.set('port', process.env.PORT || 1111);
