@@ -15,10 +15,10 @@
     "googleAnalytics": "",
     "injectJs": "",
     "customCss": "",
-    "currencySymbol": "£",
+    "currencySymbol": "$",
     "currencyISO": "USD",
     "paymentGateway": [
-        "stripe" 
+        "stripe"
     ],
     "databaseConnectionString": "mongodb+srv://expresscart:1234@cluster1.ajuyn.mongodb.net/<dbname>?retryWrites=true&w=majority",
     "theme": "Cloth",
@@ -47,5 +47,9 @@
         }
     },
     "showRelatedProducts": true,
-    "showHomepageVariants": false
+    "showHomepageVariants": false,
+    "secretCookie": "ab3548d2732628b5d3b0a71be98e868a66781252",
+    "secretSession": "4157be29817b12bed51e5bd9f8f92b6f7e173912",
+    "themeViews": "../views/themes/Cloth/",
+    "env": ".min"
 }
